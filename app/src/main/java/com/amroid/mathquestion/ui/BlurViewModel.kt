@@ -1,4 +1,4 @@
-package com.amroid.mathquestion
+package com.amroid.mathquestion.ui
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
@@ -7,6 +7,7 @@ import androidx.work.ExistingWorkPolicy
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
+import com.amroid.mathquestion.services.MathWorker
 import java.util.concurrent.TimeUnit
 
 class BlurViewModel(application: Application) : AndroidViewModel(application) {
